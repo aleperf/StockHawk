@@ -1,0 +1,52 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- App Toolbar styles -->
+    <style name="ToolbarHeaderTextView">
+        <item name="android:textSize">@dimen/toolbar_header_text_size</item>
+        <item name="android:textColor">@color/dark_background_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+   <!-- list_item_quote styles !-->
+
+    <style name="PercentChangeTextStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_background_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BidPriceTextStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="StockSymbolTextStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/stock_text_color</item>
+    </style>
+
+    <!-- Widget styles -->
+    <style name="WidgetPercentChangeTextStyle" parent="PercentChangeTextStyle">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="WidgetBidPriceTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/stock_text_color</item>
+    </style>
+    <style name="WidgetStockSymbolTextStyle" parent="StockSymbolTextStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="LastUpdateTextView">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+</resources>

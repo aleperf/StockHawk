@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <!-- stockfragment dimensions -->
+    <dimen name="time_msg_home">12sp</dimen>
+    <dimen name="time_msg_padding_start">8dp</dimen>
+    <!-- chart dimensions -->
+    <dimen name="chart_padding_top">16dp</dimen>
+    <dimen name="chart_side_padding">8dp</dimen>
+    <dimen name="chart_padding_bottom">16dp</dimen>
+    <dimen name="chart_height">420dp</dimen>
+    <!-- Toolbar dimensions -->
+    <dimen name="toolbar_header_text_size">24sp</dimen>
+    <dimen name="fab_margin_end">18dp</dimen>
+    <!-- widget dimensions -->
+    <dimen name="widget_width">220dp</dimen>
+    <dimen name="widget_height">220dp</dimen>
+
+</resources>

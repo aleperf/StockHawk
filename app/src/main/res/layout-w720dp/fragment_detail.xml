@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/empty_chart_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/chart_empty_text"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/empty_chart_image_view"
+        android:src="@drawable/chart_no_data_red"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:contentDescription="@string/chart_description"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chart_height"
+        android:paddingEnd="@dimen/chart_side_padding"
+        android:paddingRight="@dimen/chart_side_padding"
+        android:paddingStart="@dimen/chart_side_padding"
+        android:paddingLeft="@dimen/chart_side_padding"
+        android:paddingTop="@dimen/chart_padding_top"
+        />
+
+    </LinearLayout>
+
+

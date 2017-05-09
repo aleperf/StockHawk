@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name" translatable="false">Stock Hawk</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+
+   <string name="pref_last_update_time_key" translatable="false">last update time</string>
+
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
+
+
+    <string name="action_change_units" translatable="false">@string/pref_display_mode_key</string>
+
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+
+
+    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <!-- errors -->
+    <string name="toast_invalid_stock_name">\u0020 is an invalid stock name, it won\'t be added to your list of stocks</string>
+
+
+
+    <!-- Used in DetailFragment, Chart Labels -->
+    <string name="chart_label">\u0020 price in $</string>
+    <string name="chart_empty_text">Select a stock to display the chart of price over time</string>
+    <!-- Used in app widget  -->
+    <string name="widget_empty_view_text">No data to display yet</string>
+
+    <!-- tools text strings -->
+    <string name="tools_symbol_quote">GOOG</string>
+    <string name="tools_quote_price">1000.00</string>
+    <string name="tools_quote_change">100%</string>
+    <string name="tools_error_message">Error Message</string>
+
+    <string name="fab_plus_content_description">add a new stock symbol</string>
+
+    <!-- change buttons content description -->
+
+    <string name="toggle_display_change">toggle change value display</string>
+
+    <string name="chart_description">Chart of quote price in dollars for stock : </string>
+    <string name="return_home">Return to the main menu of stocks</string>
+
+    <!-- last update strings -->
+    <string name="last_update_msg">LAST UPDATE: \u0020</string>
+    <string name="warning_old_data">WARNING: DATA MAY BE OUT OF DATE</string>
+
+    <!-- notify invalid symbols to the user -->
+    <string name="invalid_symbols_msg">The following symbols are invalid and won\'t be added to your list of stocks: \n</string>
+
+</resources>
